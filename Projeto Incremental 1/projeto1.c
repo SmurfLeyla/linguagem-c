@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include <windows.h>
 
 int main() {
     int opcao;
@@ -41,7 +41,7 @@ int main() {
                 printf("Opção inválida. Tente novamente.\n");
         }
 
-        sleep(3); 
+        Sleep(3000); 
         printf("\n");
     } while (opcao != 0);
 

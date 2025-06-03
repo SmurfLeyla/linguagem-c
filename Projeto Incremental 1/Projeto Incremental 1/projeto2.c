@@ -61,7 +61,7 @@ int main() {
                 printf("Opção inválida. Tente novamente.\n");
         }
 
-        sleep(3000); 
+        Sleep(3000); 
         printf("\n");
     } while (opcao != 0);
 

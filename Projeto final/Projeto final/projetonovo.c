@@ -381,7 +381,7 @@ void carregarDados(Aluno **alunos, int *totalAlunos, int *idAtual) {
 
     if (arquivo == NULL) {
         printf("Arquivo de dados nao encontrado. Iniciando sistema vazio.\n");
-        *idAtual = 1;
+        *idAtual = 1001;
         return;
     }
 
